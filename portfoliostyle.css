@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}body{
+    background-color: black;
+}
+nav{
+    height: 80px;
+    background-color: #262626;
+}
+nav img.logo{
+    float: left;
+    line-height: 80px;
+    padding-left: 15px;
+}
+nav h1 b{
+    color: rgb(160, 10, 70);
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 7px 8px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    color:rgb(160, 10, 70);
+    background-color: #000000;
+    transition: .5s ease-in-out;
+}
+img.heroimage{
+    float: right;
+    margin-top: 7%;
+    margin-right: 8%;
+}
+div.content{
+    width: 50%;
+    margin-left: 90px;
+    text-align: left;
+    transform: translateY(15vh);
+}
+div.content p.name{
+    font-size: 74px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-top: 8%;
+}
+div.content p.name b{
+    color: rgb(160, 10, 70);
+}
+div.content p{
+    font-size: 40px;
+    color: whitesmoke;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+div.content p i{
+    color: rgb(160, 10, 70);
+}
+div.content .btn{
+    background-color:#262626;
+    color: whitesmoke;
+    margin-left: 20%;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    line-height: 200px;
+}
+div.content .btn:hover{
+    background-color: rgb(160, 10, 70);
+    color: black;
+    transition: .3s ease-in-out;
+}
+div.me{
+    text-align: center;
+    margin-top: 30%;
+    line-height: 75px;
+}
+div.content2{
+    border: 2px solid;
+    background-color: rgba(26, 26, 26, 1);
+}
+div h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+div h2 b{
+    color: rgb(160, 10, 70);
+}
+div.me p{
+    font-size: 25px;
+    justify-content: center;
+    color: whitesmoke;
+}
+div.skills{
+    color: whitesmoke;
+    width: 100vw;
+    height: auto;
+}
+div.content3{
+    text-align: center;
+    line-height: 40px;
+}
+div.content3 h3{
+    font-size: 45px;
+    font-weight: 600;
+    padding: 20px;
+}
+div.content3 h3 b{
+    color: rgb(160, 10, 70);
+}div.imageskills{
+    display: flex;
+}
+div.imageskills p.html{
+    padding: 3% 10%;
+}
+div.imageskills p.css{
+    padding: 3% 10%;
+}
+div.imageskills p.js{
+    padding: 3% 10%;
+}
+div.imageskills p.figma{
+    padding: 3% 10%;
+}
+div.footer{
+    background-color:rgb(29, 28, 28);
+    padding: 30px 0px;
+}
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.column{
+    width: 30%;
+    padding: 0px 15px;
+}
+img.flogo{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+div h3{
+    font-size: 30px;
+    color: whitesmoke;
+    padding-bottom: 15px;
+}
+div h3 b{
+    color: rgb(160, 10, 70);
+}
+div.column ul{
+    list-style: none;
+}
+div.column ul a{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+div.column ul a:hover{
+    border-radius: 50px;
+    display: inline-block;
+    color: rgb(160, 10, 70);
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+div.copyright{
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
